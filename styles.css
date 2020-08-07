@@ -9,11 +9,11 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: rgba(167, 167, 167, 0.904);
+    background-color: rgb(255, 255, 255);
 }
 .container{
     position: relative;
-    background: url(./images/clock.png) ,rgba(255, 255, 255, 0.26);
+    background: url(./images/clock.png) ,rgb(61, 61, 61);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
