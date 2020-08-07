@@ -18,8 +18,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     border: 10px solid rgba(255, 255, 255, 0.151);
-    height: 200px;
-    width: 200px;   
+    height: 400px;
+    width: 400px;   
     position: relative;
     border-radius: 50%;
     /* box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.13),
@@ -68,27 +68,28 @@ body{
 }
 .sec_hand
 {
-    height: 75px;
-    width: 2px;
+    height: 150px;
+    width: 4px;
     border-radius:2px ;
-    background: rgb(92, 1, 1);
-    transform-origin: 1px 60px;
+    background: #5c0101;
+    transform-origin: 2px 135px;
     position: absolute;
-    left: 100px;
-    bottom: 85px;
+    left: 200px;
+    bottom:185px;
     transform: translateX(50%);
 
 }
 .min_hand
 {
-    height: 50px;
+    /* height: calc(50px * 2); */
+    height: 50px ;
     width: 2px;
     border-radius:2px ;
     background: rgb(175, 4, 4);
     transform-origin:0px 47px;
     position: absolute;
-    left: 100px;
-    bottom: 97px;
+    left: 200px;
+    bottom: 197px;
     transform: translateX(-50%);
 }
 
