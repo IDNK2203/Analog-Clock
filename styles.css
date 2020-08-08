@@ -19,7 +19,7 @@ h1{
 }
 .clock{
     position: relative;
-    background: url(./images/clock.png) ,rgb(61, 61, 61);
+    background: url(./images/clock.png) ,rgb(243, 42, 42);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
